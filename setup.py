@@ -18,14 +18,11 @@ setuptools.setup(
     author_email='dev@notjustatoy.com',
     url='https://github.com/NotJustAToy/aio-mqtt',
     packages=setuptools.find_packages(exclude=('tests', 'tests.*')),
-    keywords='mqtt',
+    keywords='mqtt asyncio',
     zip_safe=False,
     include_package_data=True,
     license='Apache License 2.0',
     python_requires='>=3.6.0',
-    install_requires=[
-        'aiochannel==0.2.2',
-    ],
     tests_require=[
         'pytest>=3.1.1,<4',
         'pytest-cov>=2.3.1',
