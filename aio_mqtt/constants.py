@@ -45,5 +45,5 @@ MAXIMUM_PAYLOAD_SIZE: int = 268435455
 MAXIMUM_TOPIC_LENGTH: int = 65535
 MAXIMUM_PACKET_ID: int = 65536
 
-TOPIC_FILTER_REGEX = re.compile(r'^/?(\+|[\w-]+)(/(\+|[\w-]+))*(/#)?$')
-TOPIC_NAME_REGEX = re.compile(r'^/?[\w-]+(/[\w-]+)*$')
+TOPIC_FILTER_REGEX = re.compile(r'^/?(\+|[\w\.-]+)(/(\+|[\w\.-]+))*(/#)?$')
+TOPIC_NAME_REGEX = re.compile(r'^/?[\w\.-]+(/[\w\.-]+)*$')
